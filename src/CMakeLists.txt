@@ -39,6 +39,7 @@ endif (DEV_ENABLE_GCOV)
 # Used to compile xournalpp and xournalpp-test
 set (xournalpp_LDFLAGS
   util
+  std::filesystem
   ${xournalpp_LDFLAGS}
 )
 
